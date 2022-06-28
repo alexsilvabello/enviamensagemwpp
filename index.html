@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Envie mensagens sem adicionar o contato</title>
+</head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <h1>Envie mensagens sem precisar adicionar o contato no Whatsapp</h1>
+            </div>
+        </header>
+        <div class="formulario">
+            <h2>Enviando pelo celular: abrirá o aplicativo.</h2>
+            <h2>Pelo computador: abrirá a tela do aplicativo Web.</h2>
+            <main>
+                <form method="get" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="cdpais" class="contact_label cdpais">CÓDIGO DO PAÍS</label>
+                            <input type="text" name="cdpais" id="cdpais" class="contact_input" required placeholder="+55">
+                        </div>
+                        <div class="contact_content">
+                            <label for="tl" class="contact_label title">DDD + TELEFONE DESTINO</label>
+                            <input type="text" name="PROJECT" id="tl" class="contact_input" required
+                                placeholder="DDD999999999">
+                        </div>
+                        <div class="contact_content">
+                            <label for="ms" class="contact_label desc">MENSAGEM</label>
+                            <textarea name="ms" id="ms" style='resize: none;' cols="0" rows="7" spellcheck='true'
+                                maxlength="3000" class="contact_input" style="resize: none" placeholder="DIGITE SUA MENSAGEM AQUI."></textarea>
+                        </div>
+                        <div class="button-enviar--mensagem">
+                            <a href="" target="_blank" class="button button-flex enviarMensagem" style="color: black;">
+                                Enviar
+                                <i class="uil uil-message button_icon" style="color: rgb(0, 0, 0);"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </main>
+        </div>
+        <script src="./js/script.js"></script>
+        <footer>
+            <p class="copy">&copy; Copyright Alex Silva - 2022</p>
+        </footer>
+    </body>
+</html>
