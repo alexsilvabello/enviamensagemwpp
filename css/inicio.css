@@ -28,7 +28,6 @@ header {
 
 a {
     text-decoration: none;
-    color: #fff;
 }
 
 .formulario {
@@ -57,7 +56,6 @@ form label, form legend { /* Label e legenda do formulário */
     margin-top: 10px;
     padding: 10px 0 10px 0;
     background: #128c7e;
-    color: white;
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
@@ -68,11 +66,9 @@ form label, form legend { /* Label e legenda do formulário */
 
 .button-enviar--mensagem:hover {
     background: #02af9b;
-    color: white;
     transform: scale(1.1); /*aumenta o tamanho do botão*/
 }
 .copy { 
-    text-align: bottom;
     color:white;
     font-size: 13px;
     margin-top: 0px;
